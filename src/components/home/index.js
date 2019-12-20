@@ -3,7 +3,7 @@ import logo from '../../logo.svg';
 
 function Home() {
     return (
-    <div className="App">
+    <div className="App" id="homenav">
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
         <p> Joni Elfhers (she/her) is a freelance audio engineer. She works on both digital and analog systems, in both mobile and studio settings.
