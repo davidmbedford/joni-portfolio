@@ -10,7 +10,7 @@ function Home() {
         Edit <code>src/App.js</code> and save to reload.
       </p>
       <p>
-          If you can see this, it means you succesfully moved and imported your code around.
+        This is the biography of Joni Elfers
       </p>
       <a
         className="App-link"
