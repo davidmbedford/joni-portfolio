@@ -7,10 +7,13 @@ function Contact() {
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
       <p>
-        Edit <code>src/App.js</code> and save to reload.
+        Email address
       </p>
       <p>
-          This is Joni's contact info. 
+        Phone Number
+      </p>
+      <p>
+        Mailing Address
       </p>
       <a
         className="App-link"
