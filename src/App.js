@@ -1,4 +1,5 @@
-import React, {useState} from 'react';
+import React from 'react';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 import './App.css';
 import Navbar from './components/navbar/index.js';
 import Footer from './components/footer/index.js';
@@ -7,18 +8,18 @@ import Gear from './screens/gear/index.js';
 import Discography from './screens/discography/index.js';
 import Contact from './screens/contact/index.js';
 
-
-
 function App() {
   return (
+    <Router>
     <>
-    <Navbar />
-    <Home />
-    <Gear />
-    <Discography />
-    <Contact />
-    <Footer />
+      <Navbar />
+      <Route exact path="/" conmponents={Home} />
+      <Route exact path="/gear" conmponents={Gear}/>
+      <Route exact path="/discography" conmponents={Discography}/>
+      <Route exact path="/contact" conmponents={Contact}/>
+      <Footer />
     </>
+    </Router>
   );
 }
 
