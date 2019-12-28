@@ -1,3 +1,11 @@
+# Web Design & Development
+## by David Michael Bedford
+This portfolio was designed for Earth Song Recording using ReactJs
+
+For inquires, email me at david.m.bedford1@gmail.com
+
+... 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

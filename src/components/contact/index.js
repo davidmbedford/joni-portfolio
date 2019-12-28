@@ -3,15 +3,14 @@ import logo from '../../logo.svg';
 
 function Contact() {
     return (
-    <div className="App">
+    <div className="App" id="contactnav">
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <p>
-          This is Joni's contact info. 
-      </p>
+      <div className="container">
+      <p>Email: earthsongsrecordings@gmail.com</p>
+      <p>Phone Number: 666-420-4321</p>
+      <p>Mailing Address: maybe you dont want this one idk</p>
+      </div>
       <a
         className="App-link"
         href="https://reactjs.org"
