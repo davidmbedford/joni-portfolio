@@ -21,14 +21,14 @@ class Home extends Component {
           She currently has a studio space in west Philly that is available for small sessions and tape sessions.
         </p>
       </div>
-      <a
+      {/* <a
         className="App-link"
         href="https://reactjs.org"
         target="_blank"
         rel="noopener noreferrer"
       >
         Learn React
-      </a>
+      </a> */}
     </header>
   </div>
     );
