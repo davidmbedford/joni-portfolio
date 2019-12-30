@@ -1,19 +1,22 @@
-import React from 'react';
+import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 
-function Navbar() {
-    return(
+class Navbar extends Component {
+  render() {
+    return (
         <nav>
-        <div class="nav-wrapper">
-          <a href="google.com" class="brand-logo">Earth Songs Recordings</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#homenav">Home</a></li>
-            <li><a href="#gearnav">Gear</a></li>
-            <li><a href="#discognav">Discography</a></li>
-            <li><a href="#contactnav">Contact</a></li>
+        <div className="nav-wrapper">
+          <a href="google.com" className="brand-logo">Earth Songs Recordings</a>
+          <ul id="nav-mobile" className="right hide-on-med-and-down">
+            <li><Link to='/'>Home</Link></li>
+            <li><Link to='/gear'>Gear</Link></li>
+            <li><Link to='/discography'>Discography</Link></li>
+            <li><Link to='/contact'>Contact</Link></li>
           </ul>
         </div>
       </nav>
     )
+  }
 }
 
 export default Navbar;

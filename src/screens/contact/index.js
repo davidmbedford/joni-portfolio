@@ -11,14 +11,14 @@ function Contact() {
       <p>Phone Number: 666-420-4321</p>
       <p>Mailing Address: maybe you dont want this one idk</p>
       </div>
-      <a
+      {/* <a
         className="App-link"
         href="https://reactjs.org"
         target="_blank"
         rel="noopener noreferrer"
       >
         Learn React
-      </a>
+      </a> */}
     </header>
   </div>
     );

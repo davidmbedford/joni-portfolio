@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {Component} from 'react';
 import logo from '../../logo.svg';
 
-function Home() {
-    return (
+class Home extends Component {
+  render () {
+  return (
     <div className="App" id="homenav">
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
@@ -20,17 +21,19 @@ function Home() {
           She currently has a studio space in west Philly that is available for small sessions and tape sessions.
         </p>
       </div>
-      <a
+      {/* <a
         className="App-link"
         href="https://reactjs.org"
         target="_blank"
         rel="noopener noreferrer"
       >
         Learn React
-      </a>
+      </a> */}
     </header>
   </div>
     );
+  }
 }
 
 export default Home;
+
