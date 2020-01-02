@@ -1,13 +1,14 @@
 import React from 'react';
+import './style.css';
 
 function Footer() {
     return(
-        <footer className="page-footer">
+        <footer className="page-footer" id="footertop">
           <div className="container">
             <div className="row">
               <div className="col l6 s12">
-                <h5 className="white-text">Footer Content</h5>
-                <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <h5 className="white-text">Earth Songs Recordings</h5>
+                <p className="grey-text text-lighten-4">You probably dont want this zone, but I made the footer large as a demo in case it sparked ideas</p>
               </div>
               <div className="col l4 offset-l2 s12">
                 <h5 className="white-text">Links</h5>
@@ -20,10 +21,10 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="footer-copyright">
+          <div className="footer-copyright" id="footerbottom">
             <div className="container">
-            © 2014 Copyright Text
-            <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
+            this site designed by <span><a href="davidmbedford.github.io">davidmbedford</a></span>
+            <a className="grey-text text-lighten-4 right" href="#!"><i class="fab fa-instagram fa-lg"></i></a>
             </div>
           </div>
         </footer>
