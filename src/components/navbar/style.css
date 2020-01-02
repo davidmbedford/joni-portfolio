@@ -1,7 +1,19 @@
-.brand-logo {
+nav .brand-logo {
     font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    padding-left: 1vw;
 }
 
 li {
     font-family: 'Oswald', sans-serif;
 }
+
+nav {
+    background-color: #c55555;
+}
+
+@media only screen and (max-width: 600px) {
+    nav .brand-logo {
+      font-size: 1rem;
+    }
+  }
