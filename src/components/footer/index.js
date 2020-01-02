@@ -1,4 +1,5 @@
 import React from 'react';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 import './style.css';
 
 function Footer() {
@@ -23,7 +24,7 @@ function Footer() {
           </div>
           <div className="footer-copyright" id="footerbottom">
             <div className="container">
-            this site designed by <span><a href="davidmbedford.github.io">davidmbedford</a></span>
+            this site designed by <span><a href="https://davidmbedford.github.io">davidmbedford</a></span>
             <a className="grey-text text-lighten-4 right" href="#!"><i class="fab fa-instagram fa-lg"></i></a>
             </div>
           </div>
