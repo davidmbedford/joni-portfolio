@@ -17,7 +17,7 @@ function Gear() {
 
       <div className="row">
         <div className="col s6">
-          <h2>((((Mics:))))</h2>
+          <h2>Mics</h2>
             <div className="left-align"> 
               <p>Dynamics:</p>
                 <li>Sennheiser MD421 x 2</li>
@@ -45,7 +45,39 @@ function Gear() {
         </div>
 
         <div className="col s6">
-          <h2>((((Misc:))))</h2>
+        <h2>Instruments</h2>
+          <div className="left-align">
+            <p>Drums:</p>
+              <li>1970 Slingerland 5 piece</li>
+              <li>Various snares and cymbals</li>
+              <li>1967~ Ludwig 22 x 14</li>
+
+            <p>Amps:</p>
+              <li>1967 Fender Bandmaster Reverb</li>
+              <li>Sunn Concert Lead red knob</li>
+              <li>Hammond ao 35 conversion (Dr Z carmin Ghia)</li>
+              <li>Ampeg Gemini 2</li>
+              <li>Peavey Classic VT</li>
+      
+            <p>Cabs:</p>
+              <li>2 x 15 sunn cab jbl k140</li>
+              <li>Peavey 2 x 12 cab</li>
+              <li>1x 10 weber cab</li>
+              <li>2x10 bass cab</li>
+      
+            <p>Guitars:</p>
+              <li>Peavey T60</li>
+              <li>Peavey Patriot</li>
+              <li>Hamer Double Cut</li>
+              <li>Vantage Bass</li>
+      
+          </div>
+        </div>
+      </div>
+
+      <div className="row">
+      <div className="col s6">
+          <h2>Miscellaneous</h2>
             <div className="left-align"> 
               <p>Outboard:</p>
                 <li>Carvin MX1688</li>
@@ -79,39 +111,6 @@ function Gear() {
                 <li>Fisher Stereo Expander</li>
                 <li>Alesis microverb</li>
             </div>
-        </div>
-      </div>
-
-      <div className="row">
-        <div className="col s6">
-        <h1>Instruments:</h1>
-          <div className="left-align">
-            <p>Drums:</p>
-              <li>1970 Slingerland 5 piece</li>
-              <li>Various snares and cymbals</li>
-              <li>1967~ Ludwig 22 x 14</li>
-
-            <p>Amops:</p>
-              <li>1967 Fender Bandmaster Reverb</li>
-              <li>Sunn Concert Lead red knob</li>
-              <li>Hammond ao 35 conversion (Dr Z carmin Ghia)</li>
-              <li>Ampeg Gemini 2</li>
-              <li>Peavey Classic VT</li>
-      
-            <p>Cabs:</p>
-              <li>2 x 15 sunn cab jbl k140</li>
-              <li>Peavey 2 x 12 cab</li>
-              <li>1x 10 weber cab</li>
-              <li>2x10 bass cab</li>
-      
-            <p>Guitars:</p>
-              <li>Peavey T60</li>
-              <li>Peavey Patriot</li>
-              <li>Hamer Double Cut</li>
-              <li>Vantage Bass</li>
-      
-          </div>
-      
         </div>
       </div>
 

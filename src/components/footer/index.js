@@ -24,7 +24,7 @@ function Footer() {
           <div className="footer-copyright" id="footerbottom">
             <div className="container">
             this site designed by <span><a href="https://davidmbedford.github.io">davidmbedford</a></span>
-            <a className="grey-text text-lighten-4 right" href="#!"><i class="fab fa-instagram fa-lg"></i></a>
+            <a className="grey-text text-lighten-4 right" href="#!"><i className="fab fa-instagram fa-lg"></i></a>
             </div>
           </div>
         </footer>
