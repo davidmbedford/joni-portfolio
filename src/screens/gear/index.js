@@ -10,8 +10,8 @@ function Gear() {
     <div className="container">
 
       <div className="row">
-        <div className="col s12">
-          <h1>((((Gear:))))</h1>
+        <div className="col s12 headingBorder">
+          <h1>Gear</h1>
         </div>
       </div>
 

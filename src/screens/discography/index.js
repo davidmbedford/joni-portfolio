@@ -17,13 +17,20 @@ function Discography() {
       </a> */}
 
       <div className="container">
+        
+      <div className="row">
+        <div className="col s12 headingBorder">
+          <h1>Selected Discography</h1>
+        </div>
+      </div>
+
         <div className="row">
-          <div className="col s6">
+          <div className="col s12 l6">
             <div className="container exampleBox">
               ...
             </div>
           </div>
-          <div className="col s6 left-align">
+          <div className="col s12 l6 left-align">
             <h3>(Band Name)</h3>
             <p>Genre: Xxxx Yyyyy</p>
             <p>Credit: Recorded this album live at Zzzzz Studios. Mixed every song except, track 4.</p>
@@ -32,12 +39,12 @@ function Discography() {
         </div>
 
         <div className="row">
-          <div className="col s6">
+          <div className="col s12 l6">
             <div className="container exampleBox">
               ...
             </div>
           </div>
-          <div className="col s6 left-align">
+          <div className="col s12 l6 left-align">
             <h3>(Band Name)</h3>
             <p>Genre: Xxxx Yyyyy</p>
             <p>Credit: Recorded this album live at Zzzzz Studios. Mixed every song except, track 4.</p>
@@ -46,12 +53,12 @@ function Discography() {
         </div>
 
         <div className="row">
-          <div className="col s6">
+          <div className="col s12 l6">
             <div className="container exampleBox">
               ...
             </div>
           </div>
-          <div className="col s6 left-align">
+          <div className="col s12 l6 left-align">
             <h3>(Band Name)</h3>
             <p>Genre: Xxxx Yyyyy</p>
             <p>Credit: Recorded this album live at Zzzzz Studios. Mixed every song except, track 4.</p>
