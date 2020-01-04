@@ -7,7 +7,23 @@ function Gear() {
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
       <div className="container">
-      <h2>((((Gear:))))</h2>
+
+      <div className="row">
+        <div className="col s12">
+      <h1>((((Gear:))))</h1>
+      </div>
+      </div>
+
+      <div className="row">
+        <div className="col s6">
+        <h1>((((Gear:))))</h1>
+        </div>
+
+        <div className="col s6">
+        <h1>((((Gear:))))</h1>
+        </div>
+      </div>
+
       <h4>Outboard</h4>
         <li>Carvin MX1688</li>
       
