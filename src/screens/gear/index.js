@@ -16,7 +16,7 @@ function Gear() {
       </div>
 
       <div className="row">
-        <div className="col s6">
+        <div className="col s12 l6">
           <h2>Mics</h2>
             <div className="left-align"> 
               <p>Dynamics:</p>
@@ -44,7 +44,7 @@ function Gear() {
             </div>
         </div>
 
-        <div className="col s6">
+        <div className="col s12 l6">
         <h2>Instruments</h2>
           <div className="left-align">
             <p>Drums:</p>
