@@ -12,13 +12,13 @@ class Home extends Component {
           Over the past decade Joni, has record hundreds of albums covering a variety of styles. From live session to multi track sessions, she has a proven track record.
         </p>
         <p>
-          She puts the clients vision first, whether is is low-fi rock or orchestrated folk, and everything in between.
+          She puts the clients vision first, whether it is low-fi rock or orchestrated folk, and everything in between.
         </p>
         <p>
           Joni can travel and book sessions at local studios in your area, or do mobile projects(currently digital only).
         </p>
         <p>
-          She currently has a studio space in west Philly that is available for small sessions and tape sessions.
+          She currently has a studio space in West Philly that is available for small sessions and tape sessions.
         </p>
       </div>
       {/* <a

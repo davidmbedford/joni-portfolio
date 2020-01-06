@@ -16,8 +16,8 @@ class Navbar extends Component {
       <>
         <nav>
         <div className="nav-wrapper">
-          <a href="#" className="brand-logo">Earth Songs Recordings</a>
-          <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <a href="#" className="brand-logo">Earth Songs Recording</a>
+          <a href="#" data-target="slide-out" className="sidenav-trigger"><i className="material-icons">menu</i></a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/gear'>Gear</Link></li>
@@ -27,7 +27,7 @@ class Navbar extends Component {
         </div>
       </nav>
 
-        <ul id="slide-out" class="sidenav">
+        <ul id="slide-out" className="sidenav">
           {/* <li><div class="user-view">
             <div class="background">
               <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Big-eared-townsend-fledermaus.jpg" />
