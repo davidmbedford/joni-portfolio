@@ -9,7 +9,7 @@ li {
 }
 
 nav {
-    background-color: #c55555;
+    background-color: rgba(45, 56, 46, 0.829);
 }
 
 @media only screen and (max-width: 600px) {

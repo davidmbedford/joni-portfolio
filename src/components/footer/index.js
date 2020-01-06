@@ -7,7 +7,7 @@ function Footer() {
           <div className="container">
             <div className="row">
               <div className="col l6 s12">
-                <h5 className="white-text">Earth Songs Recordings</h5>
+                <h5 className="white-text">Earth Songs Recording</h5>
                 <p className="grey-text text-lighten-4">You probably dont want this zone, but I made the footer large as a demo in case it sparked ideas</p>
               </div>
               <div className="col l4 offset-l2 s12">
