@@ -22,6 +22,7 @@ class Navbar extends Component {
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/gear'>Gear</Link></li>
             <li><Link to='/discography'>Discography</Link></li>
+            <li><Link to='/clients'>Clients</Link></li>
             <li><Link to='/contact'>Contact</Link></li>
           </ul>
         </div>
@@ -39,6 +40,7 @@ class Navbar extends Component {
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/gear'>Gear</Link></li>
             <li><Link to='/discography'>Discography</Link></li>
+            <li><Link to='/clients'>Clients</Link></li>
             <li><Link to='/contact'>Contact</Link></li>
         </ul>
       </>
