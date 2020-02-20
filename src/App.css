@@ -26,3 +26,8 @@
 p {
   text-align: left;
 }
+
+.clientName {
+  margin: 0%;
+  font-size: 1rem;
+}

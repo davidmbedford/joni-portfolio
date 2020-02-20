@@ -18,61 +18,61 @@ function Clients() {
 
       <div className="row">
         <div className="col s12 m6 l4 left-align"> 
-                <li>Sennheiser MD421 x 2</li>
-                <li>Sennheiser e609</li>
-                <li>Shure SM 57</li>
-                <li>Shure SM 58 X 3</li>
-                <li>Audio Technica Pro 25 x 2</li>
-                <li>Beyerdynamic M88</li>
-                <li>AKG D112</li>
-                <li>EV 635a</li>
-                <li>Various oddball dynamics</li>
-                <li>Stellar RSM 3 x 2</li>
-                <li>Oktava MK 012 x2</li>
-                <li>OktavaMod MK 219</li>
-                <li>Milab 96b x 2</li>
-                <li>GrooveTubes st69 tube mic</li>
-                <li>CAD E200</li>
-                <li>Audio technica 4033a</li>
-                <li>Audio Technica boundary mic x 2</li>
+                <p className='clientName'>Sennheiser MD421 x 2</p>
+                <p className='clientName'>Sennheiser e609</p>
+                <p className='clientName'>Shure SM 57</p>
+                <p className='clientName'>Shure SM 58 X 3</p>
+                <p className='clientName'>Audio Technica Pro 25 x 2</p>
+                <p className='clientName'>Beyerdynamic M88</p>
+                <p className='clientName'>AKG D112</p>
+                <p className='clientName'>EV 635a</p>
+                <p className='clientName'>Various oddball dynamics</p>
+                <p className='clientName'>Stellar RSM 3 x 2</p>
+                <p className='clientName'>Oktava MK 012 x2</p>
+                <p className='clientName'>OktavaMod MK 219</p>
+                <p className='clientName'>Milab 96b x 2</p>
+                <p className='clientName'>GrooveTubes st69 tube mic</p>
+                <p className='clientName'>CAD E200</p>
+                <p className='clientName'>Audio technica 4033a</p>
+                <p className='clientName'>Audio Technica boundary mic x 2</p>
         </div>
         <div className="col s12 m6 l4 left-align"> 
-                <li>Sennheiser MD421 x 2</li>
-                <li>Sennheiser e609</li>
-                <li>Shure SM 57</li>
-                <li>Shure SM 58 X 3</li>
-                <li>Audio Technica Pro 25 x 2</li>
-                <li>Beyerdynamic M88</li>
-                <li>AKG D112</li>
-                <li>EV 635a</li>
-                <li>Various oddball dynamics</li>
-                <li>Stellar RSM 3 x 2</li>
-                <li>Oktava MK 012 x2</li>
-                <li>OktavaMod MK 219</li>
-                <li>Milab 96b x 2</li>
-                <li>GrooveTubes st69 tube mic</li>
-                <li>CAD E200</li>
-                <li>Audio technica 4033a</li>
-                <li>Audio Technica boundary mic x 2</li>
+                <p className='clientName'>Sennheiser MD421 x 2</p>
+                <p className='clientName'>Sennheiser e609</p>
+                <p className='clientName'>Shure SM 57</p>
+                <p className='clientName'>Shure SM 58 X 3</p>
+                <p className='clientName'>Audio Technica Pro 25 x 2</p>
+                <p className='clientName'>Beyerdynamic M88</p>
+                <p className='clientName'>AKG D112</p>
+                <p className='clientName'>EV 635a</p>
+                <p className='clientName'>Various oddball dynamics</p>
+                <p className='clientName'>Stellar RSM 3 x 2</p>
+                <p className='clientName'>Oktava MK 012 x2</p>
+                <p className='clientName'>OktavaMod MK 219</p>
+                <p className='clientName'>Milab 96b x 2</p>
+                <p className='clientName'>GrooveTubes st69 tube mic</p>
+                <p className='clientName'>CAD E200</p>
+                <p className='clientName'>Audio technica 4033a</p>
+                <p className='clientName'>Audio Technica boundary mic x 2</p>
         </div>
         <div className="col s12 m6 l4 left-align"> 
-                <li>Sennheiser MD421 x 2</li>
-                <li>Sennheiser e609</li>
-                <li>Shure SM 57</li>
-                <li>Shure SM 58 X 3</li>
-                <li>Audio Technica Pro 25 x 2</li>
-                <li>Beyerdynamic M88</li>
-                <li>AKG D112</li>
-                <li>EV 635a</li>
-                <li>Various oddball dynamics</li>
-                <li>Stellar RSM 3 x 2</li>
-                <li>Oktava MK 012 x2</li>
-                <li>OktavaMod MK 219</li>
-                <li>Milab 96b x 2</li>
-                <li>GrooveTubes st69 tube mic</li>
-                <li>CAD E200</li>
-                <li>Audio technica 4033a</li>
-                <li>Audio Technica boundary mic x 2</li>
+                <p className='clientName'>Sennheiser MD421 x 2</p>
+                <p className='clientName'>Sennheiser e609</p>
+                <p className='clientName'>Shure SM 57</p>
+                <p className='clientName'>Shure SM 58 X 3</p>
+                <p className='clientName'>Audio Technica Pro 25 x 2</p>
+                <p className='clientName'>Beyerdynamic M88</p>
+                <p className='clientName'>AKG D112</p>
+                <p className='clientName'>EV 635a</p>
+                <p className='clientName'>Various oddball dynamics</p>
+                <p className='clientName'>Stellar RSM 3 x 2</p>
+                <p className='clientName'>Oktava MK 012 x2</p>
+                <p className='clientName'>OktavaMod MK 219</p>
+                <p className='clientName'>Milab 96b x 2</p>
+                <p className='clientName'>GrooveTubes st69 tube mic</p>
+                <p className='clientName'>CAD E200</p>
+                <p className='clientName'>Audio technica 4033a</p>
+                <p className='clientName'>Audio Technica boundary mic x 2</p>
         </div>
         </div>
       </div>
