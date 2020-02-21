@@ -1,20 +1,12 @@
 import React from 'react';
-import logo from '../../logo.svg';
+// import logo from '../../logo.svg';
 import './style.css';
 
 function Discography() {
     return (
     <div className="App" id="discognav">
     <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      {/* <a
-        className="App-link"
-        href="https://www.bandcamp.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Bandcamp
-      </a> */}
+      {/* <img src={logo} className="App-logo" alt="logo" /> */}
 
       <div className="container">
         

@@ -29,14 +29,6 @@ class Navbar extends Component {
       </nav>
 
         <ul id="slide-out" className="sidenav">
-          {/* <li><div class="user-view">
-            <div class="background">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Big-eared-townsend-fledermaus.jpg" />
-            </div>
-            <a href="#user"><img class="circle" src="images/yuna.jpg" /></a>
-            <a href="#name"><span class="white-text name">John Doe</span></a>
-            <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
-          </div></li> */}
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/gear'>Gear</Link></li>
             <li><Link to='/discography'>Discography</Link></li>

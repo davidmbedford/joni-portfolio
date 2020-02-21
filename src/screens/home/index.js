@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
-import logo from '../../logo.svg';
+// import logo from '../../logo.svg';
+import interface_ultra from '../../assets/interface_ultra.svg';
 
 class Home extends Component {
   render () {
   return (
     <div className="App" id="homenav">
     <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
+      <img src={interface_ultra} className="App-logo" alt="logo" />
       <div className="container">
         <p> Joni Elfhers (she/her) is a freelance audio engineer. She works on both digital and analog systems, in both mobile and studio settings.
           Over the past decade Joni, has record hundreds of albums covering a variety of styles. From live session to multi track sessions, she has a proven track record.

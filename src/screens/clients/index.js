@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import logo from '../../logo.svg';
+// import logo from '../../logo.svg';
 import './style.css';
 
 function Clients() {
@@ -8,7 +8,7 @@ function Clients() {
     <>
     <div className="App" id="homenav">
     <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
+      {/* <img src={logo} className="App-logo" alt="logo" /> */}
       <div className="container">
       <div className="row">
         <div className="col s12 headingBorder">

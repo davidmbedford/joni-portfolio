@@ -3,11 +3,11 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  max-width: 40vw;
 }
 
 .App-header {
-  background-image: linear-gradient(180deg, #8d514c 30%,  #e7ccc6 100%);
+  background-image: linear-gradient(180deg, #b18a87 30%,  #e7ccc6 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
