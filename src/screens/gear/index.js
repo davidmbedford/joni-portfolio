@@ -4,7 +4,7 @@ import React from 'react';
 function Gear() {
   return (
     <div className="App" id="gearnav">
-    <header className="App-header">
+    <div className="App-header">
       {/* <img src={logo} className="App-logo" alt="logo" /> */}
       
     <div className="container">
@@ -16,8 +16,8 @@ function Gear() {
       </div>
 
       <div className="row">
-        <div className="col s12 l6">
-          <h2>Mics</h2>
+        <div className="col s12 l4">
+          <h3>Mics</h3>
             <div className="left-align"> 
               <p>Dynamics:</p>
                 <li>Sennheiser MD421 x 2</li>
@@ -44,8 +44,8 @@ function Gear() {
             </div>
         </div>
 
-        <div className="col s12 l6">
-        <h2>Instruments</h2>
+        <div className="col s12 l4">
+        <h3>Instruments</h3>
           <div className="left-align">
             <p>Drums:</p>
               <li>1970 Slingerland 5 piece</li>
@@ -73,11 +73,9 @@ function Gear() {
       
           </div>
         </div>
-      </div>
 
-      <div className="row">
-      <div className="col s6">
-          <h2>Miscellaneous</h2>
+      <div className="col s12 l4">
+          <h3>Misc.</h3>
             <div className="left-align"> 
               <p>Outboard:</p>
                 <li>Carvin MX1688</li>
@@ -113,9 +111,9 @@ function Gear() {
             </div>
         </div>
       </div>
+    </div>
 
     </div>
-    </header>
   </div>
     );
 }

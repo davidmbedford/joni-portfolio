@@ -4,8 +4,9 @@ nav .brand-logo {
     padding-left: 1vw;
 }
 
-li {
-    font-family: 'Oswald', sans-serif;
+#nav-mobile li,
+#slide-out li {
+    font-family: 'Passion One', sans-serif;
 }
 
 nav {

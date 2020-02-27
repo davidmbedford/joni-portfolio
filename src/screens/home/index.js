@@ -9,7 +9,7 @@ class Home extends Component {
     <header className="App-header">
       <img src={interface_ultra} className="App-logo" alt="logo" />
       <div className="container">
-        <p> Joni Elfers is an sonic facilitator and audio engineer. She is experienced with tracking, mixing, and mastering. She puts her emphasis on 
+        <p> Joni Elfers is a sonic facilitator and audio engineer. She is experienced with tracking, mixing, and mastering. She puts her emphasis on 
           connecting with the artist and what they want. Recording is a sacred process and music connects people in a deep and intangible way, 
           and Joni want to respect and honor that in the creative process.
           </p>

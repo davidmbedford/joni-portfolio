@@ -4,6 +4,7 @@
 
 .App-logo {
   max-width: 40vw;
+  padding-top: 10vh;
 }
 
 .App-header {
@@ -23,7 +24,20 @@
 
 /* Hohm-brew */
 
-p {
+p,
+ul,
+li,
+h3 {
   text-align: left;
+  font-family: 'Roboto Mono', serif;
+}
+
+h1 {
+  font-family: 'Passion One', sans-serif;
+}
+
+h3 {
+  font-weight: bold;
+  font-style: italic;
 }
 
