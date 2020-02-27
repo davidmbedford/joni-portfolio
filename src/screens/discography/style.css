@@ -1,5 +1,12 @@
 .exampleBox {
-    background-color: aliceblue;
-    height: 30vw;
-    width: 30vw;
+  background-color: aliceblue;
+  color: aliceblue;
+  height: 30vw;
+  width: 30vw;
+  border-radius: 5px;
+}
+
+.Box-content {
+  padding: 10px;
+
 }
