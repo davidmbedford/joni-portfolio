@@ -12,14 +12,6 @@ code {
     monospace;
 }
 
-h2,
-h4,
-h5,
-li,
-p {
-  font-family: 'Oswald', sans-serif;
-}
-
 .headingBorder {
   font-weight: bold;
   border-bottom: 3px groove white;
