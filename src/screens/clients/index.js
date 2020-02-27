@@ -18,61 +18,64 @@ function Clients() {
 
       <div className="row">
         <div className="col s12 m6 l4 left-align"> 
-                <p className='clientName'>Sennheiser MD421 x 2</p>
-                <p className='clientName'>Sennheiser e609</p>
-                <p className='clientName'>Shure SM 57</p>
-                <p className='clientName'>Shure SM 58 X 3</p>
-                <p className='clientName'>Audio Technica Pro 25 x 2</p>
-                <p className='clientName'>Beyerdynamic M88</p>
-                <p className='clientName'>AKG D112</p>
-                <p className='clientName'>EV 635a</p>
-                <p className='clientName'>Various oddball dynamics</p>
-                <p className='clientName'>Stellar RSM 3 x 2</p>
-                <p className='clientName'>Oktava MK 012 x2</p>
-                <p className='clientName'>OktavaMod MK 219</p>
-                <p className='clientName'>Milab 96b x 2</p>
-                <p className='clientName'>GrooveTubes st69 tube mic</p>
-                <p className='clientName'>CAD E200</p>
-                <p className='clientName'>Audio technica 4033a</p>
-                <p className='clientName'>Audio Technica boundary mic x 2</p>
+          <p className="clientName">A Paramount, A Love Supreme (DE)</p>
+          <p className="clientName">Alyssa Regan (DE)</p>
+          <p className="clientName">Amiright(ME)</p>
+          <p className="clientName">angusisdead (ME)</p>
+          <p className="clientName">Baby Grill (DC)</p>
+          <p className="clientName">Bad Vibes (DE)</p>
+          <p className="clientName">Bay Rides (PA)</p>
+          <p className="clientName">beach Dogs (ME/PA/NYC)</p>
+          <p className="clientName">Bethany Bruises (MA)</p>
+          <p className="clientName">Cat Child (LA)</p>
+          <p className="clientName">Constellate (DE)</p>
+          <p className="clientName">Crownsville (DC)</p>
+          <p className="clientName">Cullan Bonila (PA)</p>
+          <p className="clientName">Cycling (MA)</p>
+          <p className="clientName">Em McKeever (DE)</p>
+          <p className="clientName">Femme Flag (DC)</p>
+          <p className="clientName">Fenris (DE)</p>
+          <p className="clientName">Ghost Guest (MA)</p>
         </div>
         <div className="col s12 m6 l4 left-align"> 
-                <p className='clientName'>Sennheiser MD421 x 2</p>
-                <p className='clientName'>Sennheiser e609</p>
-                <p className='clientName'>Shure SM 57</p>
-                <p className='clientName'>Shure SM 58 X 3</p>
-                <p className='clientName'>Audio Technica Pro 25 x 2</p>
-                <p className='clientName'>Beyerdynamic M88</p>
-                <p className='clientName'>AKG D112</p>
-                <p className='clientName'>EV 635a</p>
-                <p className='clientName'>Various oddball dynamics</p>
-                <p className='clientName'>Stellar RSM 3 x 2</p>
-                <p className='clientName'>Oktava MK 012 x2</p>
-                <p className='clientName'>OktavaMod MK 219</p>
-                <p className='clientName'>Milab 96b x 2</p>
-                <p className='clientName'>GrooveTubes st69 tube mic</p>
-                <p className='clientName'>CAD E200</p>
-                <p className='clientName'>Audio technica 4033a</p>
-                <p className='clientName'>Audio Technica boundary mic x 2</p>
+          <p className="clientName">Ghost Tropic (FL)</p>
+          <p className="clientName">Holy Gifts(PA)</p>
+          <p className="clientName">Holy Shadow (ME)</p>
+          <p className="clientName">Hot flakes (PA)</p>
+          <p className="clientName">Jon, the archivist(MA)</p>
+          <p className="clientName">Kevin brusha (PA)</p>
+          <p className="clientName">Kobika (DE)</p>
+          <p className="clientName">Little Gunpowder (MD)</p>
+          <p className="clientName">Mafdet (FL)</p>
+          <p className="clientName">Mark Grimm (Germany)</p>
+          <p className="clientName">Maro (Uganda)</p>
+          <p className="clientName">Matt And Rory (MD)</p>
+          <p className="clientName">Merger (DE)</p>
+          <p className="clientName">Naff(DE)</p>
+          <p className="clientName">Negative Bones (MD)</p>
+          <p className="clientName">Ohligans (CA)</p>
+          <p className="clientName">Orafist(MA)</p>
+          <p className="clientName">Pat Malone (MA)</p>
         </div>
         <div className="col s12 m6 l4 left-align"> 
-                <p className='clientName'>Sennheiser MD421 x 2</p>
-                <p className='clientName'>Sennheiser e609</p>
-                <p className='clientName'>Shure SM 57</p>
-                <p className='clientName'>Shure SM 58 X 3</p>
-                <p className='clientName'>Audio Technica Pro 25 x 2</p>
-                <p className='clientName'>Beyerdynamic M88</p>
-                <p className='clientName'>AKG D112</p>
-                <p className='clientName'>EV 635a</p>
-                <p className='clientName'>Various oddball dynamics</p>
-                <p className='clientName'>Stellar RSM 3 x 2</p>
-                <p className='clientName'>Oktava MK 012 x2</p>
-                <p className='clientName'>OktavaMod MK 219</p>
-                <p className='clientName'>Milab 96b x 2</p>
-                <p className='clientName'>GrooveTubes st69 tube mic</p>
-                <p className='clientName'>CAD E200</p>
-                <p className='clientName'>Audio technica 4033a</p>
-                <p className='clientName'>Audio Technica boundary mic x 2</p>
+          <p className="clientName">Plague Bubonika (MD),</p>
+          <p className="clientName">Protection hexes (PA)</p>
+          <p className="clientName">Robot House (DE)</p>
+          <p className="clientName">Rory Strong and the Standard Candles(ME)</p>
+          <p className="clientName">Shane Palko (PA),</p>
+          <p className="clientName">Slugqueen (PA)</p>
+          <p className="clientName">Soundsylvania (PA)</p>
+          <p className="clientName">Stefan Wolfe (Skatula Funk) (PA)</p>
+          <p className="clientName">The Commonwealth (DE).</p>
+          <p className="clientName">The Leaky Soups (PA)</p>
+          <p className="clientName">The Peach Pits (MA)</p>
+          <p className="clientName">The Soap Factory Preachers (DE).</p>
+          <p className="clientName">Think Machine (DE)</p>
+          <p className="clientName">Two Ways (DE)</p>
+          <p className="clientName">Will Colvin (PA)</p>
+          <p className="clientName">Wives (PA)</p>
+          <p className="clientName">Yippee! (MA)</p>
+          <p className="clientName">Yuckmouf/Bendrill Spiders (PA/EU)</p>
         </div>
         </div>
       </div>
@@ -83,4 +86,3 @@ function Clients() {
 }
 
 export default Clients;
-
