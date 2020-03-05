@@ -8,19 +8,17 @@
 }
 
 .App-header {
-  background-image: linear-gradient(180deg, #b18a87 30%,  #e7ccc6 100%);
+  /* background-image: linear-gradient(180deg, #b18a87 30%,  #e7ccc6 100%); */
+  background-color: whitesmoke;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(247, 247, 247);
+  color: black;
 }
 
-.App-link {
-  color: #09d3ac;
-}
 
 /* Hohm-brew */
 
@@ -47,4 +45,8 @@ li {
 
 ul {
   color: black;
+}
+
+.bold {
+  font-weight: bold;
 }

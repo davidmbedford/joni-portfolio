@@ -9,3 +9,19 @@
 .footer-logo {
     font-family: 'Pacifico', sans-serif;
 }
+
+i {
+  padding-right: 1.2vw;
+  transition: color 0.5s ease;
+}
+
+#mySite {
+  color: inherit;
+  transition: color 0.5s ease;
+}
+
+i:hover,
+#mySite:hover {
+  color: rgb(245, 147, 147);
+}
+
