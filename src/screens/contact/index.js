@@ -5,7 +5,6 @@ function Contact() {
   return (
     <div className="App" id="contactnav">
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <div className="container">
 
           <div className="row">
@@ -14,7 +13,7 @@ function Contact() {
             </div>
           </div>
 
-          <div className="container">
+          <div className="container contactFont">
             <div className="row">
               <div className="col m10 offset-m1 s12">
                 <div className="row">
@@ -22,11 +21,11 @@ function Contact() {
                     <div className="row">
                       <div className="input-field col s12">
                         <input id="name" type="text" />
-                        <label for="name">Name</label>
+                        <label className="contactFont" for="name">Name</label>
                       </div>
                       <div className="input-field col s12">
                         <input id="email" type="email" className="form-input validate" />
-                        <label for="email">Your Email</label>
+                        <label className="contactFont" for="email">Your Email</label>
                       </div>
                       {/* <div className="input-field col s12">
                         <textarea id="message" className="materialize-textarea"></textarea>
@@ -37,7 +36,7 @@ function Contact() {
                     <div className="row">
                       <div className="col m12">
                         <p className="right-align">
-                          <button className="btn btn-large waves-effect waves-light" type="submit" name="action">
+                          <button className="btn waves-effect waves-light blue-grey lighten-3 contactFont" type="submit" name="action">
                             Send Message
                           </button>
                         </p>
@@ -50,7 +49,6 @@ function Contact() {
           </div>
 
         </div>
-
       </header>
     </div>
   );

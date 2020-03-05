@@ -27,7 +27,7 @@ class Gear extends Component {
             <div className="row left-align">
               <h3>Mics</h3>
 
-              <div className="col s6 l4">
+              <div className="col s12">
                 <ul className="collapsible">
                   <li>
                     <div className="collapsible-header">Dynamics</div>
@@ -43,22 +43,12 @@ class Gear extends Component {
                       <p>Various oddball dynamics</p>
                     </div>
                   </li>
-                </ul>
-              </div>
-
-              <div className="col s6 l4">
-                <ul className="collapsible">
                   <li>
                     <div className="collapsible-header">Ribbon</div>
                     <div className="collapsible-body">
                       <p>Stellar RSM 3 x 2</p>
                     </div>
                   </li>
-                </ul>
-              </div>
-
-              <div className="col s6 l4">
-                <ul className="collapsible">
                   <li>
                     <div className="collapsible-header">Condensors</div>
                     <div className="collapsible-body">
@@ -73,12 +63,11 @@ class Gear extends Component {
                   </li>
                 </ul>
               </div>
-            </div>
 
             <div className="row left-align">
               <h3>Instruments</h3>
 
-              <div className="col s6 m4 l3">
+              <div className="col s12">
                 <ul className="collapsible">
                   <li>
                     <div className="collapsible-header">Drums</div>
@@ -88,11 +77,6 @@ class Gear extends Component {
                       <p>1967~ Ludwig 22 x 14</p>
                     </div>
                   </li>
-                </ul>
-              </div>
-
-              <div className="col s6 m4 l3">
-                <ul className="collapsible">
                   <li>
                     <div className="collapsible-header">Amps</div>
                     <div className="collapsible-body">
@@ -103,11 +87,6 @@ class Gear extends Component {
                       <p>Peavey Classic VT</p>
                     </div>
                   </li>
-                </ul>
-              </div>
-
-              <div className="col s6 m4 l3">
-                <ul className="collapsible">
                   <li>
                     <div className="collapsible-header">Cabs</div>
                     <div className="collapsible-body">
@@ -117,11 +96,6 @@ class Gear extends Component {
                       <p>2x10 bass cab</p>
                     </div>
                   </li>
-                </ul>
-              </div>
-
-              <div className="col s6 m4 l3">
-                <ul className="collapsible">
                   <li>
                     <div className="collapsible-header">Guitars</div>
                     <div className="collapsible-body">
@@ -131,14 +105,16 @@ class Gear extends Component {
                       <p>Vantage Bass</p>
                     </div>
                   </li>
+
                 </ul>
               </div>
             </div>
 
+
             <div className="row left-align">
               <h3>Miscellaneous</h3>
 
-              <div className="col s6 m4 l3">
+              <div className="col s12">
                 <ul className="collapsible">
                   <li>
                     <div className="collapsible-header">Outboard</div>
@@ -146,11 +122,6 @@ class Gear extends Component {
                       <p>Carvin MX1688</p>
                     </div>
                   </li>
-                </ul>
-              </div>
-
-              <div className="col s6 m4 l3">
-                <ul className="collapsible">
                   <li>
                     <div className="collapsible-header">Converters</div>
                     <div className="collapsible-body">
@@ -158,11 +129,6 @@ class Gear extends Component {
                       <p>Focusrite Clarett octopre</p>
                     </div>
                   </li>
-                </ul>
-              </div>
-
-              <div className="col s6 m4 l3">
-                <ul className="collapsible">
                   <li>
                     <div className="collapsible-header">Programs</div>
                     <div className="collapsible-body">
@@ -171,22 +137,12 @@ class Gear extends Component {
                       <p>LOGIC</p>
                     </div>
                   </li>
-                </ul>
-              </div>
-
-              <div className="col s6 m4 l3">
-                <ul className="collapsible">
                   <li>
                     <div className="collapsible-header">Tape Machine</div>
                     <div className="collapsible-body">
                       <p>Otari MX 5050 b3 8 track 1/2</p>
                     </div>
                   </li>
-                </ul>
-              </div>
-
-              <div className="col s6 m4 l3">
-                <ul className="collapsible">
                   <li>
                     <div className="collapsible-header">Dynamics</div>
                     <div className="collapsible-body">
@@ -198,11 +154,6 @@ class Gear extends Component {
                       <p>Orban 414</p>
                     </div>
                   </li>
-                </ul>
-              </div>
-
-              <div className="col s6 m4 l3">
-                <ul className="collapsible">
                   <li>
                     <div className="collapsible-header">EQ</div>
                     <div className="collapsible-body">
@@ -211,11 +162,6 @@ class Gear extends Component {
                       <p>Rane EQ</p>
                     </div>
                   </li>
-                </ul>
-              </div>
-
-              <div className="col s6 m4 l3">
-                <ul className="collapsible">
                   <li>
                     <div className="collapsible-header">FX</div>
                     <div className="collapsible-body">
@@ -225,7 +171,7 @@ class Gear extends Component {
                   </li>
                 </ul>
               </div>
-
+              </div>
             </div>
           </div>
         </div>

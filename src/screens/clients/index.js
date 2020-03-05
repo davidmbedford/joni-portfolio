@@ -1,15 +1,13 @@
-import React, {Component} from 'react';
-// import logo from '../../logo.svg';
+import React from 'react';
 import './style.css';
 
 function Clients() {
-
   return (
     <>
     <div className="App" id="homenav">
     <header className="App-header">
-      {/* <img src={logo} className="App-logo" alt="logo" /> */}
       <div className="container">
+
       <div className="row">
         <div className="col s12 headingBorder">
           <h1>Clients</h1>
@@ -82,7 +80,7 @@ function Clients() {
     </header>
   </div>
   </>
-    );
+  );
 }
 
 export default Clients;
