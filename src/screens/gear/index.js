@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-// import logo from '../../logo.svg';
+import './style.css';
 
 class Gear extends Component {
   componentDidMount() {
     const M = window.M;
     document.addEventListener('DOMContentLoaded', function () {
       var elems = document.querySelectorAll('.collapsible');
-      var instances = M.Collapsible.init(elems, {accordian: false});
+      var instances = M.Collapsible.init(elems, {accordian: true});
     });
   }
 
@@ -30,7 +30,7 @@ class Gear extends Component {
               <div className="col s12">
                 <ul className="collapsible">
                   <li>
-                    <div className="collapsible-header">Dynamics</div>
+                    <div className="collapsible-header bold">Dynamics</div>
                     <div className="collapsible-body">
                       <p>Sennheiser MD421 x 2</p>
                       <p>Sennheiser e609</p>
@@ -44,13 +44,13 @@ class Gear extends Component {
                     </div>
                   </li>
                   <li>
-                    <div className="collapsible-header">Ribbon</div>
+                    <div className="collapsible-header bold">Ribbon</div>
                     <div className="collapsible-body">
                       <p>Stellar RSM 3 x 2</p>
                     </div>
                   </li>
                   <li>
-                    <div className="collapsible-header">Condensors</div>
+                    <div className="collapsible-header bold">Condensors</div>
                     <div className="collapsible-body">
                       <p>Oktava MK 012 x2</p>
                       <p>OktavaMod MK 219</p>
@@ -70,7 +70,7 @@ class Gear extends Component {
               <div className="col s12">
                 <ul className="collapsible">
                   <li>
-                    <div className="collapsible-header">Drums</div>
+                    <div className="collapsible-header bold">Drums</div>
                     <div className="collapsible-body">
                       <p>1970 Slingerland 5 piece</p>
                       <p>Various snares and cymbals</p>
@@ -78,7 +78,7 @@ class Gear extends Component {
                     </div>
                   </li>
                   <li>
-                    <div className="collapsible-header">Amps</div>
+                    <div className="collapsible-header bold">Amps</div>
                     <div className="collapsible-body">
                       <p>1967 Fender Bandmaster Reverb</p>
                       <p>Sunn Concert Lead red knob</p>
@@ -88,7 +88,7 @@ class Gear extends Component {
                     </div>
                   </li>
                   <li>
-                    <div className="collapsible-header">Cabs</div>
+                    <div className="collapsible-header bold">Cabs</div>
                     <div className="collapsible-body">
                       <p>2 x 15 sunn cab jbl k140</p>
                       <p>Peavey 2 x 12 cab</p>
@@ -97,7 +97,7 @@ class Gear extends Component {
                     </div>
                   </li>
                   <li>
-                    <div className="collapsible-header">Guitars</div>
+                    <div className="collapsible-header bold">Guitars</div>
                     <div className="collapsible-body">
                       <p>Peavey T60</p>
                       <p>Peavey Patriot</p>
@@ -117,20 +117,20 @@ class Gear extends Component {
               <div className="col s12">
                 <ul className="collapsible">
                   <li>
-                    <div className="collapsible-header">Outboard</div>
+                    <div className="collapsible-header bold">Outboard</div>
                     <div className="collapsible-body">
                       <p>Carvin MX1688</p>
                     </div>
                   </li>
                   <li>
-                    <div className="collapsible-header">Converters</div>
+                    <div className="collapsible-header bold">Converters</div>
                     <div className="collapsible-body">
                       <p>Motu 8 pre es</p>
                       <p>Focusrite Clarett octopre</p>
                     </div>
                   </li>
                   <li>
-                    <div className="collapsible-header">Programs</div>
+                    <div className="collapsible-header bold">Programs</div>
                     <div className="collapsible-body">
                       <p>REAPER</p>
                       <p>Pro-tools</p>
@@ -138,13 +138,13 @@ class Gear extends Component {
                     </div>
                   </li>
                   <li>
-                    <div className="collapsible-header">Tape Machine</div>
+                    <div className="collapsible-header bold">Tape Machine</div>
                     <div className="collapsible-body">
                       <p>Otari MX 5050 b3 8 track 1/2</p>
                     </div>
                   </li>
                   <li>
-                    <div className="collapsible-header">Dynamics</div>
+                    <div className="collapsible-header bold">Dynamics</div>
                     <div className="collapsible-body">
                       <p>Ashly CL 50</p>
                       <p>Ashly CL 52</p>
@@ -155,7 +155,7 @@ class Gear extends Component {
                     </div>
                   </li>
                   <li>
-                    <div className="collapsible-header">EQ</div>
+                    <div className="collapsible-header bold">EQ</div>
                     <div className="collapsible-body">
                       <p>Orban 626a EQ</p>
                       <p>Peavey EQ</p>
@@ -163,7 +163,7 @@ class Gear extends Component {
                     </div>
                   </li>
                   <li>
-                    <div className="collapsible-header">FX</div>
+                    <div className="collapsible-header bold">FX</div>
                     <div className="collapsible-body">
                       <p>Fisher Stereo Expander</p>
                       <p>Alesis microverb</p>

@@ -1,5 +1,5 @@
 import React from 'react';
-// import logo from '../../logo.svg';
+import './style.css';
 
 function Contact() {
   return (
@@ -21,11 +21,11 @@ function Contact() {
                     <div className="row">
                       <div className="input-field col s12">
                         <input id="name" type="text" />
-                        <label className="contactFont" for="name">Name</label>
+                        <label className="contactFont" htmlFor="name">Name</label>
                       </div>
                       <div className="input-field col s12">
                         <input id="email" type="email" className="form-input validate" />
-                        <label className="contactFont" for="email">Your Email</label>
+                        <label className="contactFont" htmlFor="email">Your Email</label>
                       </div>
                       {/* <div className="input-field col s12">
                         <textarea id="message" className="materialize-textarea"></textarea>
@@ -36,7 +36,7 @@ function Contact() {
                     <div className="row">
                       <div className="col m12">
                         <p className="right-align">
-                          <button className="btn waves-effect waves-light blue-grey lighten-3 contactFont" type="submit" name="action">
+                          <button className="btn contactFont waves-effect waves-light blue-grey lighten-3" type="submit" name="action">
                             Send Message
                           </button>
                         </p>
