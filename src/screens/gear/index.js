@@ -21,40 +21,31 @@ class Gear extends Component {
               <h3>Mics</h3>
 
               <div className="col s12">
-                <ul className="collapsible">
-                  <li>
-                    <div className="collapsible-header bold">Dynamics</div>
-                    <div className="collapsible-body">
-                      <p>Sennheiser MD421 x 2</p>
-                      <p>Sennheiser e609</p>
-                      <p>Shure SM 57</p>
-                      <p>Shure SM 58 X 3</p>
-                      <p>Audio Technica Pro 25 x 2</p>
-                      <p>Beyerdynamic M88</p>
-                      <p>AKG D112</p>
-                      <p>EV 635a</p>
-                      <p>Various oddball dynamics</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="collapsible-header bold">Ribbon</div>
-                    <div className="collapsible-body">
-                      <p>Stellar RSM 3 x 2</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="collapsible-header bold">Condensors</div>
-                    <div className="collapsible-body">
-                      <p>Oktava MK 012 x2</p>
-                      <p>OktavaMod MK 219</p>
-                      <p>Milab 96b x 2</p>
-                      <p>GrooveTubes st69 tube mic</p>
-                      <p>CAD E200</p>
-                      <p>Audio technica 4033a</p>
-                      <p>Audio Technica boundary mic x 2</p>
-                    </div>
-                  </li>
-                </ul>
+              <Collapsible accordion>
+                <CollapsibleItem expanded={false} header="Dynamics" node="div">
+                  <p>Sennheiser MD421 x 2</p>
+                  <p>Sennheiser e609</p>
+                  <p>Shure SM 57</p>
+                  <p>Shure SM 58 X 3</p>
+                  <p>Audio Technica Pro 25 x 2</p>
+                  <p>Beyerdynamic M88</p>
+                  <p>AKG D112</p>
+                  <p>EV 635a</p>
+                  <p>Various oddball dynamics</p>
+                </CollapsibleItem>
+                <CollapsibleItem expanded={false} header="Ribbon" node="div">
+                  <p>Stellar RSM 3 x 2</p>
+                </CollapsibleItem>
+                <CollapsibleItem expanded={false} header="Condensors" node="div">
+                  <p>Oktava MK 012 x2</p>
+                  <p>OktavaMod MK 219</p>
+                  <p>Milab 96b x 2</p>
+                  <p>GrooveTubes st69 tube mic</p>
+                  <p>CAD E200</p>
+                  <p>Audio technica 4033a</p>
+                  <p>Audio Technica boundary mic x 2</p>
+                </CollapsibleItem>
+              </Collapsible>
               </div>
 
             <div className="row left-align">
@@ -167,31 +158,43 @@ class Gear extends Component {
               </div>
             </div>
 
-
-  <Collapsible accordion>
-  <CollapsibleItem
-    expanded={false}
-    header="Better safe than sorry. That's my motto."
-    node="div"
-  >
-    Better safe than sorry. That's my motto.
-  </CollapsibleItem>
-  <CollapsibleItem
-    expanded={false}
-    header="Yeah, you do seem to have a little 'shit creek' action going."
-    node="div"
-  >
-    Yeah, you do seem to have a little 'shit creek' action going.
-  </CollapsibleItem>
-  <CollapsibleItem
-    expanded={false}
-    header="You know, FYI, you can buy a paddle. Did you not plan for this contingency?"
-    node="div"
-  >
-    <p>You know, FYI, you can buy a paddle. Did you not plan for this contingency?</p>
-    <p>Yeah, you do seem to have a little 'shit creek' action going.</p>
-  </CollapsibleItem>
-</Collapsible>
+            <Collapsible accordion>
+                <CollapsibleItem
+                  expanded={false}
+                  header="Dynamics"
+                  node="div"
+                >
+                  <p>Sennheiser MD421 x 2</p>
+                  <p>Sennheiser e609</p>
+                  <p>Shure SM 57</p>
+                  <p>Shure SM 58 X 3</p>
+                  <p>Audio Technica Pro 25 x 2</p>
+                  <p>Beyerdynamic M88</p>
+                  <p>AKG D112</p>
+                  <p>EV 635a</p>
+                  <p>Various oddball dynamics</p>
+                </CollapsibleItem>
+                <CollapsibleItem
+                  expanded={false}
+                  header="Ribbon"
+                  node="div"
+                >
+                  <p>Stellar RSM 3 x 2</p>
+                </CollapsibleItem>
+                <CollapsibleItem
+                  expanded={false}
+                  header="Condensors"
+                  node="div"
+                >
+                  <p>Oktava MK 012 x2</p>
+                  <p>OktavaMod MK 219</p>
+                  <p>Milab 96b x 2</p>
+                  <p>GrooveTubes st69 tube mic</p>
+                  <p>CAD E200</p>
+                  <p>Audio technica 4033a</p>
+                  <p>Audio Technica boundary mic x 2</p>
+                </CollapsibleItem>
+              </Collapsible>
 
 
           </div>
