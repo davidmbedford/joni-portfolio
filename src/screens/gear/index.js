@@ -2,17 +2,9 @@ import React, { Component } from 'react';
 import './style.css';
 
 class Gear extends Component {
-  componentDidMount() {
-    const M = window.M;
-    document.addEventListener('DOMContentLoaded', function () {
-      var elems = document.querySelectorAll('.collapsible');
-      var instances = M.Collapsible.init(elems, {accordian: true});
-    });
-  }
-
-
   render() {
     return (
+      <>
       <div className="App" id="gearnav">
         <div className="App-header">
 
@@ -176,6 +168,7 @@ class Gear extends Component {
           </div>
         </div>
       </div>
+    </>
     );
   }
 }

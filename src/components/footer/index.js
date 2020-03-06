@@ -11,22 +11,13 @@ function Footer() {
                 <p className="text-lighten-4"><span className="bold">Email:</span> earthsongsrecording@gmail.com</p>
                 <p className="text-lighten-4"><span className="bold">Phone:</span> (302)-252-7476</p>
               </div>
-              {/* <div className="col l4 offset-l2 s12">
-                <h5 className="white-text">Links</h5>
-                <ul>
-                  <li><a className="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a className="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a className="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                </ul>
-              </div> */}
             </div>
           </div>
           <div className="footer-copyright" id="footerbottom">
             <div className="container">
-            this site designed by <span><a href="https://davidmbedford.github.io" id="mySite">davidmbedford</a></span>
-            <a className="grey-text text-lighten-4 right" href="https://www.instagram.com/earthsongsrecording/?hl=en"><i className="fab fa-instagram fa-lg"></i></a>
-            <a className="grey-text text-lighten-4 right" href="https://www.facebook.com/dankelfers"><i className="fab fa-facebook fa-lg"></i></a>
+              this site designed by <span><a href="https://davidmbedford.github.io" id="mySite">davidmbedford</a></span>
+              <a className="grey-text text-lighten-4 right" href="https://www.instagram.com/earthsongsrecording/?hl=en"><i className="fab fa-instagram fa-lg"></i></a>
+              <a className="grey-text text-lighten-4 right" href="https://www.facebook.com/dankelfers"><i className="fab fa-facebook fa-lg"></i></a>
             </div>
           </div>
         </footer>
