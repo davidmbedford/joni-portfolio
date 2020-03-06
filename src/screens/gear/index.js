@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Collapsible, CollapsibleItem } from 'react-materialize';
 import './style.css';
 
 class Gear extends Component {
@@ -165,6 +166,34 @@ class Gear extends Component {
               </div>
               </div>
             </div>
+
+
+  <Collapsible accordion>
+  <CollapsibleItem
+    expanded={false}
+    header="Better safe than sorry. That's my motto."
+    node="div"
+  >
+    Better safe than sorry. That's my motto.
+  </CollapsibleItem>
+  <CollapsibleItem
+    expanded={false}
+    header="Yeah, you do seem to have a little 'shit creek' action going."
+    node="div"
+  >
+    Yeah, you do seem to have a little 'shit creek' action going.
+  </CollapsibleItem>
+  <CollapsibleItem
+    expanded={false}
+    header="You know, FYI, you can buy a paddle. Did you not plan for this contingency?"
+    node="div"
+  >
+    <p>You know, FYI, you can buy a paddle. Did you not plan for this contingency?</p>
+    <p>Yeah, you do seem to have a little 'shit creek' action going.</p>
+  </CollapsibleItem>
+</Collapsible>
+
+
           </div>
         </div>
       </div>
