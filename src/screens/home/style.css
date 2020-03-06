@@ -1,0 +1,23 @@
+.picRight {
+  max-height: 50vh;
+  min-height: 30vh;
+  float: right;
+  clear: left;
+  margin: 15px 0px 15px 15px;
+  align-items: center;
+  box-shadow: 5px 5px;
+}
+
+.picLeft {
+  max-height: 50vh;
+  min-height: 30vh;
+  float: left;
+  clear: right;
+  margin: 15px 15px 15px 0px;
+  align-items: center;
+  box-shadow: 5px 5px;
+}
+
+.homeParagraph {
+  padding: 10px 0px 10px 0px;
+}

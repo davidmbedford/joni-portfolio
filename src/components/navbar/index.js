@@ -3,14 +3,6 @@ import { Link } from 'react-router-dom';
 import './style.css';
 
 class Navbar extends Component {
-  componentDidMount() {
-    const M = window.M;
-    document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.sidenav');
-      var instances = M.Sidenav.init(elems, {});
-    });
-  }
-  
   render() {
     return (
       <>
@@ -26,7 +18,7 @@ class Navbar extends Component {
             <li><Link to='/contact'>Contact</Link></li>
           </ul>
         </div>
-      </nav>
+        </nav>
 
         <ul id="slide-out" className="sidenav">
             <li><Link to='/'>Home</Link></li>

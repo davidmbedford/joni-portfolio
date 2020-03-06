@@ -1,136 +1,174 @@
-import React, {Component} from 'react';
-// import logo from '../../logo.svg';
+import React, { Component } from 'react';
+import './style.css';
 
 class Gear extends Component {
-  componentDidMount() {
-    const M = window.M;
-    document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.collapsible');
-      var instances = M.Collapsible.init(elems, {});
-    });
-  }
-
   render() {
-  return (
-    <div className="App" id="gearnav">
-      <div className="App-header">
-      
-      <div className="container">
+    return (
+      <>
+      <div className="App" id="gearnav">
+        <div className="App-header">
 
-        <div className="row">
-          <div className="col s12 headingBorder">
-            <h1>Gear</h1>
+          <div className="container">
+
+            <div className="row">
+              <div className="col s12 headingBorder">
+                <h1>Gear</h1>
+              </div>
+            </div>
+
+            <div className="row left-align">
+              <h3>Mics</h3>
+
+              <div className="col s12">
+                <ul className="collapsible">
+                  <li>
+                    <div className="collapsible-header bold">Dynamics</div>
+                    <div className="collapsible-body">
+                      <p>Sennheiser MD421 x 2</p>
+                      <p>Sennheiser e609</p>
+                      <p>Shure SM 57</p>
+                      <p>Shure SM 58 X 3</p>
+                      <p>Audio Technica Pro 25 x 2</p>
+                      <p>Beyerdynamic M88</p>
+                      <p>AKG D112</p>
+                      <p>EV 635a</p>
+                      <p>Various oddball dynamics</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="collapsible-header bold">Ribbon</div>
+                    <div className="collapsible-body">
+                      <p>Stellar RSM 3 x 2</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="collapsible-header bold">Condensors</div>
+                    <div className="collapsible-body">
+                      <p>Oktava MK 012 x2</p>
+                      <p>OktavaMod MK 219</p>
+                      <p>Milab 96b x 2</p>
+                      <p>GrooveTubes st69 tube mic</p>
+                      <p>CAD E200</p>
+                      <p>Audio technica 4033a</p>
+                      <p>Audio Technica boundary mic x 2</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+            <div className="row left-align">
+              <h3>Instruments</h3>
+
+              <div className="col s12">
+                <ul className="collapsible">
+                  <li>
+                    <div className="collapsible-header bold">Drums</div>
+                    <div className="collapsible-body">
+                      <p>1970 Slingerland 5 piece</p>
+                      <p>Various snares and cymbals</p>
+                      <p>1967~ Ludwig 22 x 14</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="collapsible-header bold">Amps</div>
+                    <div className="collapsible-body">
+                      <p>1967 Fender Bandmaster Reverb</p>
+                      <p>Sunn Concert Lead red knob</p>
+                      <p>Hammond ao 35 conversion (Dr Z carmin Ghia)</p>
+                      <p>Ampeg Gemini 2</p>
+                      <p>Peavey Classic VT</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="collapsible-header bold">Cabs</div>
+                    <div className="collapsible-body">
+                      <p>2 x 15 sunn cab jbl k140</p>
+                      <p>Peavey 2 x 12 cab</p>
+                      <p>1x 10 weber cab</p>
+                      <p>2x10 bass cab</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="collapsible-header bold">Guitars</div>
+                    <div className="collapsible-body">
+                      <p>Peavey T60</p>
+                      <p>Peavey Patriot</p>
+                      <p>Hamer Double Cut</p>
+                      <p>Vantage Bass</p>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+
+
+            <div className="row left-align">
+              <h3>Miscellaneous</h3>
+
+              <div className="col s12">
+                <ul className="collapsible">
+                  <li>
+                    <div className="collapsible-header bold">Outboard</div>
+                    <div className="collapsible-body">
+                      <p>Carvin MX1688</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="collapsible-header bold">Converters</div>
+                    <div className="collapsible-body">
+                      <p>Motu 8 pre es</p>
+                      <p>Focusrite Clarett octopre</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="collapsible-header bold">Programs</div>
+                    <div className="collapsible-body">
+                      <p>REAPER</p>
+                      <p>Pro-tools</p>
+                      <p>LOGIC</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="collapsible-header bold">Tape Machine</div>
+                    <div className="collapsible-body">
+                      <p>Otari MX 5050 b3 8 track 1/2</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="collapsible-header bold">Dynamics</div>
+                    <div className="collapsible-body">
+                      <p>Ashly CL 50</p>
+                      <p>Ashly CL 52</p>
+                      <p>DBX 163 xt x2</p>
+                      <p>DBX 263 xt</p>
+                      <p>Symtrix 525</p>
+                      <p>Orban 414</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="collapsible-header bold">EQ</div>
+                    <div className="collapsible-body">
+                      <p>Orban 626a EQ</p>
+                      <p>Peavey EQ</p>
+                      <p>Rane EQ</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="collapsible-header bold">FX</div>
+                    <div className="collapsible-body">
+                      <p>Fisher Stereo Expander</p>
+                      <p>Alesis microverb</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              </div>
+            </div>
           </div>
         </div>
-
-        <div className="row left-align">
-          <h3>Mics</h3>
-            <div className="col">
-              <p>Dynamics:</p>
-                <li>Sennheiser MD421 x 2</li>
-                <li>Sennheiser e609</li>
-                <li>Shure SM 57</li>
-                <li>Shure SM 58 X 3</li>
-                <li>Audio Technica Pro 25 x 2</li>
-                <li>Beyerdynamic M88</li>
-                <li>AKG D112</li>
-                <li>EV 635a</li>
-                <li>Various oddball dynamics</li>
-            </div>
-            <div className="col">
-              <p>Ribbon:</p>
-                <li>Stellar RSM 3 x 2</li>
-            </div>
-            <div className="col">
-              <p>Condensors:</p>
-                <li>Oktava MK 012 x2</li>
-                <li>OktavaMod MK 219</li>
-                <li>Milab 96b x 2</li>
-                <li>GrooveTubes st69 tube mic</li>
-                <li>CAD E200</li>
-                <li>Audio technica 4033a</li>
-                <li>Audio Technica boundary mic x 2</li>
-            </div>
-          </div>
-
-      <div className="row left-align">
-        <h3>Instruments</h3>
-          <div className="col">
-            <p>Drums:</p>
-              <li>1970 Slingerland 5 piece</li>
-              <li>Various snares and cymbals</li>
-              <li>1967~ Ludwig 22 x 14</li>
-          </div>
-          <div className="col">
-            <p>Amps:</p>
-              <li>1967 Fender Bandmaster Reverb</li>
-              <li>Sunn Concert Lead red knob</li>
-              <li>Hammond ao 35 conversion (Dr Z carmin Ghia)</li>
-              <li>Ampeg Gemini 2</li>
-              <li>Peavey Classic VT</li>
-          </div>
-          <div className="col">
-            <p>Cabs:</p>
-              <li>2 x 15 sunn cab jbl k140</li>
-              <li>Peavey 2 x 12 cab</li>
-              <li>1x 10 weber cab</li>
-              <li>2x10 bass cab</li>
-          </div>
-          <div className="col">
-            <p>Guitars:</p>
-              <li>Peavey T60</li>
-              <li>Peavey Patriot</li>
-              <li>Hamer Double Cut</li>
-              <li>Vantage Bass</li>
-          </div>  
       </div>
-
-      <div className="row left-align">
-        <h3>Misc.</h3>
-          <div className="col">
-            <p>Outboard:</p>
-              <li>Carvin MX1688</li>
-          </div>
-          <div className="col">
-            <p>Converters:</p>
-              <li>Motu 8 pre es</li>
-              <li>Focusrite Clarett octopre</li>
-          </div>
-          <div className="col">
-            <p>Programs:</p>
-              <li>REAPER</li>
-              <li>Pro-tools</li>
-              <li>LOGIC</li>
-          </div>
-          <div className="col">
-            <p>Tape Machine:</p>
-              <li>Otari MX 5050 b3 8 track 1/2</li>
-          </div>
-          <div className="col">
-            <p>Dynamics:</p>
-              <li>Ashly CL 50</li>
-              <li>Ashly CL 52</li>
-              <li>DBX 163 xt x2</li>
-              <li>DBX 263 xt</li>
-              <li>Symtrix 525</li>
-              <li>Orban 414</li>
-          </div>
-          <div className="col">
-            <p>EQ:</p>
-              <li>Orban 626a EQ</li>
-              <li>Peavey EQ</li>
-              <li>Rane EQ</li>
-          </div>
-          <div className="col">
-            <p>FX:</p>
-              <li>Fisher Stereo Expander</li>
-              <li>Alesis microverb</li>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
+    </>
     );
   }
 }
