@@ -1,3 +1,7 @@
 h3 {
   text-shadow: 1px 1px rgba(45, 56, 46, 0.6);
 }
+
+div.collapsible-header {
+  font-weight: bold;
+}
