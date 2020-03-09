@@ -1,3 +1,18 @@
 .contactFont {
   font-family: 'Roboto Mono', serif !important;
 }
+
+.contactinfo {
+  color: black;
+  transition: color 0.5s ease;
+}
+
+i {
+  padding-left: 1vw;
+  transition: color 0.5s ease;
+}
+
+i:hover,
+.contactinfo:hover {
+  color: #B0BEC5;
+}

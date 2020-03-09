@@ -17,7 +17,7 @@ function Discography() {
           <div className="row">
             <div className="col s12 left-align">
               <h5>Engineered, Recorded and Mixed at Earth Sounds in West Philadelphia || Genre: Black Metal, Screamo </h5>
-              <iframe src="https://bandcamp.com/EmbeddedPlayer/album=2689439826/size=large/bgcol=ffffff/linkcol=63b2cc/tracklist=false/artwork=small/transparent=true/" seamless>
+              <iframe className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=2689439826/size=large/bgcol=ffffff/linkcol=63b2cc/tracklist=false/artwork=small/transparent=true/" seamless>
                 <a href="http://aparamountalovesupreme.bandcamp.com/album/crisis-meditations">crisis meditations by a paramount, a love supreme</a>
               </iframe>
             </div>
@@ -26,7 +26,7 @@ function Discography() {
           <div className="row">
             <div className="col s12 left-align">
               <h5>Recorded and Mixed at Headroom Studios in North Philadelphia || Genre: Experimental Indie Rock</h5>
-              <iframe src="https://bandcamp.com/EmbeddedPlayer/album=2795895275/size=large/bgcol=ffffff/linkcol=63b2cc/tracklist=false/artwork=small/transparent=true/" seamless>
+              <iframe className="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=2795895275/size=large/bgcol=ffffff/linkcol=63b2cc/tracklist=false/artwork=small/transparent=true/" seamless>
                 <a href="http://holygifts.bandcamp.com/album/old-joy">Old Joy by Holy Gifts</a>
               </iframe>
             </div>
@@ -34,10 +34,8 @@ function Discography() {
 
           <div className="row">
             <div className="col s12 left-align">
-              <h5>Recorded and Mixed at Gargi's Room in Western Massachusetts || Genre: Alternative Folk </h5>
-              <iframe src="https://bandcamp.com/EmbeddedPlayer/album=2216066439/size=large/bgcol=ffffff/linkcol=63b2cc/tracklist=false/artwork=small/transparent=true/" seamless>
-                <a href="http://shanepalko.bandcamp.com/album/send-me-across-the-sea-ep">Send me across the sea, EP by Shane Palko</a>
-              </iframe>
+              <h5>Recorded and Mixed in Western Massachusetts || Genre: Alternative Folk </h5>
+              <iframe id="youtube" src="https://www.youtube.com/embed/jsJlCgeZLuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
 

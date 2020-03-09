@@ -58,11 +58,11 @@ class Gear extends Component {
                     <p>1967 Fender Bandmaster Reverb</p>
                     <p>Sunn Concert Lead red knob</p>
                     <p>Hammond ao 35 conversion (Dr Z carmin Ghia)</p>
-                    <p>Ampeg Gemini 2</p>
+                    <p>Peavey 2 x 12 cab</p>
+                    <p>Ampeg V4</p>
                   </CollapsibleItem>
                   <CollapsibleItem expanded={false} header="Cabs" node="div">
                     <p>2x15 Sunn cab jbl k140</p>
-                    <p>Peavey 2 x 12 cab</p>
                     <p>1x10 Weber cab</p>
                     <p>2x10 bass cab</p>
                   </CollapsibleItem>
