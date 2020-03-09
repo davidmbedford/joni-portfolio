@@ -1,20 +1,19 @@
 nav .brand-logo {
-    font-family: 'Pacifico', 'Georgia', 'Times New Roman', sans-serif;
-    font-size: 2rem;
-    padding-left: 1vw;
+  font-family: 'Pacifico', 'Georgia', 'Times New Roman', serif;
+  font-size: 2rem;
+  padding-left: 1vw;
 }
 
 #nav-mobile li,
 #slide-out li {
-    font-family: 'Passion One', sans-serif;
+  font-family: 'Passion One', sans-serif;
 }
 
 nav {
-    background-color: rgba(45, 56, 46, 0.829);
+  background-color: rgba(45, 56, 46, 0.829);
 }
 
 .sidenav {
-  opacity: 0.8;
   width: 150px;
 }
 

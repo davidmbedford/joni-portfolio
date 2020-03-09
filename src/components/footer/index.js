@@ -16,8 +16,9 @@ function Footer() {
           <div className="footer-copyright" id="footerbottom">
             <div className="container">
               this site designed by <span><a href="https://davidmbedford.github.io" id="mySite">davidmbedford</a></span>
-              <a className="grey-text text-lighten-4 right" href="https://www.instagram.com/earthsongsrecording/?hl=en"><i className="fab fa-instagram fa-lg"></i></a>
-              <a className="grey-text text-lighten-4 right" href="https://www.facebook.com/dankelfers"><i className="fab fa-facebook fa-lg"></i></a>
+              <a className="grey-text text-lighten-4 right" href="https://www.instagram.com/earthsongsrecording/?hl=en" target="_blank"><i className="fab fa-instagram fa-lg"></i></a>
+              <a className="grey-text text-lighten-4 right" href="https://www.facebook.com/dankelfers" target="_blank"><i className="fab fa-facebook fa-lg"></i></a>
+              <a className="grey-text text-lighten-4 right" href="https://www.spotify.com" target="_blank"><i className="fab fa-spotify fa-lg"></i></a>
             </div>
           </div>
         </footer>
