@@ -3,7 +3,6 @@
 }
 
 .App-header {
-  /* background-image: linear-gradient(180deg, #b18a87 30%,  #e7ccc6 100%); */
   background-color: whitesmoke;
   min-height: 100vh;
   display: flex;
@@ -13,8 +12,6 @@
   font-size: calc(10px + 2vmin);
   color: black;
 }
-
-/* Hohm-brew */
 
 p,
 ul,
@@ -44,4 +41,9 @@ ul {
 
 .bold {
   font-weight: bold;
+}
+
+.headingBorder {
+  font-weight: bold;
+  border-bottom: 3px groove white;
 }
