@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Tape from '../../assets/Tape.jpg';
 import SilverDrum from '../../assets/SilverDrum.jpg';
 import GoldDrum from '../../assets/GoldDrum.jpg';

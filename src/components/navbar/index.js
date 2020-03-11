@@ -8,7 +8,7 @@ class Navbar extends Component {
       <>
         <nav>
           <div className="nav-wrapper">
-            <a href="#" className="brand-logo">Earth Songs Recording</a>
+            <div className="brand-logo">Earth Songs Recording</div>
             <a href="#" data-target="slide-out" className="sidenav-trigger"><i className="material-icons">menu</i></a>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               <li><Link to='/'>Home</Link></li>

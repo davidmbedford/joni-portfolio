@@ -18,12 +18,12 @@ function Footer() {
           <div className="container">
             <div className="row">
               <div className="col s6" id="myAdvert">
-                this site designed by <span><a href="https://davidmbedford.herokuapp.com/" id="mySite" target="_blank">davidmbedford</a></span>
+                this site designed by <span><a href="https://davidmbedford.herokuapp.com/" id="mySite" target="_blank" rel="noopener noreferrer">davidmbedford</a></span>
               </div>
               <div className="col s6">
-                <a className="grey-text text-lighten-4 right" href="https://www.instagram.com/earthsongsrecording/?hl=en" target="_blank"><i className="fab fa-instagram fa-lg"></i></a>
-                <a className="grey-text text-lighten-4 right" href="https://www.facebook.com/dankelfers" target="_blank"><i className="fab fa-facebook fa-lg"></i></a>
-                <a className="grey-text text-lighten-4 right" href="https://open.spotify.com/playlist/74bOEmKcqfo20ZZTS6dbXz" target="_blank"><i className="fab fa-spotify fa-lg"></i></a>
+                <a className="grey-text text-lighten-4 right" href="https://www.instagram.com/earthsongsrecording/?hl=en" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram fa-lg"></i></a>
+                <a className="grey-text text-lighten-4 right" href="https://www.facebook.com/dankelfers" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook fa-lg"></i></a>
+                <a className="grey-text text-lighten-4 right" href="https://open.spotify.com/playlist/74bOEmKcqfo20ZZTS6dbXz" target="_blank" rel="noopener noreferrer"><i className="fab fa-spotify fa-lg"></i></a>
               </div>
             </div>
           </div>

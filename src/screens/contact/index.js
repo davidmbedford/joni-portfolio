@@ -23,8 +23,8 @@ function Contact() {
                   <p className="contactinfo">earthsongsrecording@gmail.com</p>
                   <p>I can also be reached via phone at <span className="contactinfo">(302)-252-7476</span></p>
                   <p>Find me on social media at:
-                    <a className="black-text text-lighten-4" href="https://www.facebook.com/dankelfers" target="_blank"><i className="fab fa-facebook fa-lg"></i></a>
-                    <a className="black-text text-lighten-4" href="https://www.instagram.com/earthsongsrecording/?hl=en" target="_blank"><i className="fab fa-instagram fa-lg"></i></a>
+                    <a className="black-text text-lighten-4" href="https://www.facebook.com/dankelfers" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook fa-lg"></i></a>
+                    <a className="black-text text-lighten-4" href="https://www.instagram.com/earthsongsrecording/?hl=en" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram fa-lg"></i></a>
                   </p>
                 </div>
               </div>

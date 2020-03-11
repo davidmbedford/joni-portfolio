@@ -15,7 +15,7 @@ function Clients() {
             </div>
 
             <div className="row">
-              <h5 id="spotify-playlist">Listen to my spotify playlist here: <a href="https://open.spotify.com/playlist/74bOEmKcqfo20ZZTS6dbXz" target="_blank" className="contactinfo"><i className="fab fa-spotify fa-lg"></i></a></h5>
+              <h5 id="spotify-playlist">Listen to my spotify playlist here: <a href="https://open.spotify.com/playlist/74bOEmKcqfo20ZZTS6dbXz" target="_blank" rel="noopener noreferrer" className="contactinfo"><i className="fab fa-spotify fa-lg" id="playlistbtn"></i></a></h5>
               <div className="col s12  l4 left-align">
                 <p className="clientName">A Paramount, A Love Supreme (DE)</p>
                 <p className="clientName">Alyssa Regan (DE)</p>
