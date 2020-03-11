@@ -25,7 +25,7 @@
 @media only screen and (max-width: 600px) {
   .picRight,
   .picLeft {
-    min-width: 70vw;
-    
+    float: none;
+    margin: 0px;
   }
 }
