@@ -3,8 +3,8 @@
 }
 
 .contactinfo {
-  color: black;
-  transition: color 0.5s ease;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
 }
 
 i {
@@ -12,7 +12,6 @@ i {
   transition: color 0.5s ease;
 }
 
-i:hover,
-.contactinfo:hover {
+i:hover {
   color: #B0BEC5;
 }

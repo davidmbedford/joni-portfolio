@@ -15,8 +15,8 @@ function Clients() {
       </div>
 
       <div className="row">
-        <h5 id="spotify-playlist">Listen to my spotify playlist here: <a href="https://www.spotify.com" target="_blank" className="contactinfo"><i className="fab fa-spotify fa-lg"></i></a></h5>
-        <div className="col s12 m6 l4 left-align"> 
+        <h5 id="spotify-playlist">Listen to my spotify playlist here: <a href="https://open.spotify.com/playlist/74bOEmKcqfo20ZZTS6dbXz" target="_blank" className="contactinfo"><i className="fab fa-spotify fa-lg"></i></a></h5>
+        <div className="col s12  l4 left-align"> 
           <p className="clientName">A Paramount, A Love Supreme (DE)</p>
           <p className="clientName">Alyssa Regan (DE)</p>
           <p className="clientName">Amiright (ME)</p>
@@ -36,7 +36,7 @@ function Clients() {
           <p className="clientName">Fenris (DE)</p>
           <p className="clientName">Ghost Guest (MA)</p>
         </div>
-        <div className="col s12 m6 l4 left-align"> 
+        <div className="col s12  l4 left-align"> 
           <p className="clientName">Ghost Tropic (FL)</p>
           <p className="clientName">Holy Gifts (PA)</p>
           <p className="clientName">Holy Shadow (ME)</p>
@@ -56,7 +56,7 @@ function Clients() {
           <p className="clientName">Orafist (MA)</p>
           <p className="clientName">Pat Malone (MA)</p>
         </div>
-        <div className="col s12 m6 l4 left-align"> 
+        <div className="col s12  l4 left-align"> 
           <p className="clientName">Plague Bubonika (MD)</p>
           <p className="clientName">Protection Hexes (PA)</p>
           <p className="clientName">Robot House (DE)</p>

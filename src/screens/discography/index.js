@@ -34,7 +34,7 @@ function Discography() {
 
           <div className="row">
             <div className="col s12 left-align">
-              <h5>Recorded and Mixed in Western Massachusetts || Genre: Alternative Folk </h5>
+              <h5>Recorded and Mixed at Supermagic Studios in Landenburg PA || Genre: Alternative Folk </h5>
               <iframe id="youtube" src="https://www.youtube.com/embed/jsJlCgeZLuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>

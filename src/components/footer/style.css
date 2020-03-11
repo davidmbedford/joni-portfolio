@@ -1,17 +1,22 @@
 #footertop {
-    background-color: rgba(45, 56, 46, 0.829);
+  background-color: rgba(45, 56, 46, 0.829);
 }
 
 #footerbottom {
-    background-color: rgb(45, 56, 46)
+  background-color: rgb(45, 56, 46)
 }
 
 .footer-logo {
-    font-family: 'Pacifico', sans-serif;
+  font-family: 'Pacifico', sans-serif;
 }
 
 i {
   transition: color 0.5s ease;
+}
+
+#myAdvert {
+  font-size: 0.8rem;
+  font-family: 'Roboto Mono', serif;
 }
 
 #mySite {
