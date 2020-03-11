@@ -26,6 +26,6 @@
   .picRight,
   .picLeft {
     float: none;
-    margin: 0px;
+    margin: 10px;
   }
 }
