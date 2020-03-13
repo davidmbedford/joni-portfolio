@@ -1,5 +1,6 @@
 {
   "name": "joni-portfolio",
+  "homepage": "http://earthsongsrecording.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
