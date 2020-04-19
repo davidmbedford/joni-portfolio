@@ -4,7 +4,7 @@
   float: right;
   clear: left;
   margin: 15px 0px 15px 15px;
-  align-items: center;
+  /* align-items: center; */
   box-shadow: 5px 5px;
 }
 
@@ -22,7 +22,7 @@
   padding: 10px 0px 10px 0px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .picRight,
   .picLeft {
     float: none;
