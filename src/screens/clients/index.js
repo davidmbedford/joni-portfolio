@@ -31,6 +31,7 @@ function Clients() {
                 <p className="clientName">Crownsville (DC)</p>
                 <p className="clientName">Cullan Bonila (PA)</p>
                 <p className="clientName">Cycling (MA)</p>
+                <p className="clientName">Dearest Hearts (MA)</p>
                 <p className="clientName">Em McKeever (DE)</p>
                 <p className="clientName">Femme Flag (DC)</p>
                 <p className="clientName">Fenris (DE)</p>
@@ -41,6 +42,7 @@ function Clients() {
                 <p className="clientName">Holy Gifts (PA)</p>
                 <p className="clientName">Holy Shadow (ME)</p>
                 <p className="clientName">Hot Flakes (PA)</p>
+                <p className="clientName">Hysteria (NJ)</p>
                 <p className="clientName">Jon, the Archivist (MA)</p>
                 <p className="clientName">Kevin Brusha (PA)</p>
                 <p className="clientName">Kobika (DE)</p>
